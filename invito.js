@@ -4,10 +4,10 @@ window.invito = {
   scrittaBusta: "Una lettera da aprire…",
   titolo: "Natale insieme",
   messaggio: [
-    "Il nostro primo Natale insieme sarà ancora più bello se potremo festeggiarlo a tavola con voi"
+    "Quest’anno il Natale è un po’ più speciale per noi. Ci piacerebbe festeggiarlo tutti insieme!"
   ],
   data: "25 dicembre 2026",
-  ora: "13:00",
+  ora: "A pranzo",
   luogo: "A casa nostra",
   firma: "Cecilia e Lorenzo"
 };
