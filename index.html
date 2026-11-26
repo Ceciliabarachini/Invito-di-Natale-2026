@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faedd9">
+  <title>Un invito per Natale</title>
+  <link rel="stylesheet" href="./stile.css">
+  <script defer src="./invito.js"></script>
+  <script defer src="./animazione.js"></script>
+</head>
+<body>
+  <main class="invitation">
+    <div class="scene" id="scena">
+      <div class="letter-slot" id="biglietto" inert>
+        <article class="letter" aria-labelledby="titolo">
+          <span class="letter-ornament" aria-hidden="true">❅</span>
+          <h1 id="titolo" tabindex="-1"></h1>
+          <div class="letter-message" id="messaggio"></div>
+          <dl class="letter-details" id="dettagli"></dl>
+          <p class="letter-signature" id="firma"></p>
+        </article>
+      </div>
+      <div class="envelope">
+        <div class="envelope-back" aria-hidden="true"></div>
+        <div class="letter-tail" aria-hidden="true"></div>
+        <div class="envelope-front" aria-hidden="true"></div>
+        <div class="flap" aria-hidden="true"></div>
+        <img class="seal" src="./sigillo.webp" width="384" height="384" alt=""
+             draggable="false">
+        <button class="envelope-button" id="apri-busta" type="button"
+                aria-expanded="false" aria-controls="biglietto">
+          <span id="etichetta">Una lettera da aprire…</span>
+        </button>
+      </div>
+    </div>
+    <noscript><p>Attiva JavaScript per aprire il biglietto.</p></noscript>
+  </main>
+</body>
+</html>
